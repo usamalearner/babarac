@@ -1,0 +1,14 @@
+.ok{
+    margin-top: 10px;
+}
+.nav-link{
+    background-color: #2196F3 !important;
+    border-radius: 10px;
+    margin-right: 5px;
+    width: 115px;
+    text-align: center;
+    margin-top: 3px;
+}
+h5{
+    text-align: justify;
+}
