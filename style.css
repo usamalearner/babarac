@@ -63,6 +63,10 @@ h1,h2{
     margin-top: 15px;
     color: #00a2ff;
     font-size: large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .manjan{
     margin-top: 15px;
@@ -79,3 +83,36 @@ h1,h2{
 .text2{
     text-align: justify;
 }
+.add{
+    flex: 1;
+    text-align: left;
+    margin-left:3%;
+    margin-top:30px;
+    min-width: 350px;
+  }
+  .useful{
+    flex: 1;
+    margin-top:15px;
+    min-width: 350px;
+  }
+  #con{
+    display: flex;
+    flex-direction: row; 
+    background-color: rgba(5, 125, 129, 0.822);
+    
+    text-align: center;
+    
+    /* justify-content: center; */
+    /* top: 100px; */
+    flex-wrap: wrap;
+    color: rgb(226, 235, 235);
+  }
+  .last{
+    background-color: navy;
+    color:white;
+    /* line-height: 40px; */
+    height:50px;
+    font-size: small;
+    text-align: left;
+   
+  }
